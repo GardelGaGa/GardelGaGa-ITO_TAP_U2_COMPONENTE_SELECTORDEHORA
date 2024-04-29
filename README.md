@@ -2,15 +2,15 @@
 
 ## Descripción:
 
-Este componenete Java proporciona a los usuarios la capacidad de seleccionar y establecer la hora de manera intuitiva a través de una interfaz gráfica. Está diseñado para su integración sencilla en aplicaciones Java Swing, pudiendo ser fácilmente agregado a JFrame u JDialog.
+Este componenete Java proporciona a los usuarios la capacidad de seleccionar y establecer la hora de manera intuitiva a través de una interfaz gráfica. Está diseñado para su integración sencilla en aplicaciones `Java Swing`, pudiendo ser fácilmente agregado a `JFrame` u `JDialog`.
 
-El componente principal consta de dos clases principales: TimePanel y TimeChooser, que trabajan en conjunto para permitir a los usuarios seleccionar la hora deseada y gestionar su interacción con el componente de forma visual.
+El componente principal consta de dos clases principales: `TimePanel` y `TimeChooser`, que trabajan en conjunto para permitir a los usuarios seleccionar la hora deseada y gestionar su interacción con el componente de forma visual.
 
 TimePanel presenta una interfaz gráfica que muestra la hora actual y proporciona controles visuales para ajustarla, mientras que TimeChooser facilita la integración del panel de selección de tiempo en aplicaciones existentes.
 
 Con su diseño modular y uso de componentes estándar de Swing, este componente ofrece una manera conveniente y segura de gestionar la selección de tiempo en aplicaciones Java, mejorando así la experiencia del usuario.
 
-# Usos:
+## Usos:
 1. **Aplicaciones de Gestión de Citas y Calendarios:** Este componente puede integrarse en sistemas de gestión de citas y calendarios donde se necesite la selección y establecimiento precisos de la hora para programar eventos, reuniones o citas.
 2. **Herramientas de Programación y Planificación:** Puede ser utilizado como parte de herramientas de programación y planificación que requieran la entrada de tiempo por parte del usuario, como aplicaciones de gestión de proyectos, herramientas de seguimiento del tiempo o planificadores de tareas.
 3. **Aplicaciones de Reservas y Programación de Recursos:** Integración en aplicaciones de reservas y programación de recursos, como sistemas de reservas de citas en línea, gestión de salas de reuniones, programación de recursos en instalaciones deportivas, entre otros.
@@ -21,7 +21,59 @@ Con su diseño modular y uso de componentes estándar de Swing, este componente 
 
 
 ## Características:
+- Generación de horas seleccionables de manera intuitiva y personalizable.
+- Integración sencilla con cualquier componente Swing (`JFrame`, `JDialog`) para una experiencia de usuario fluida.
+- Interfaz gráfica de arrastrar y soltar para una manipulación fácil y eficiente en interfaces gráficas.
+
 
 ## Requisitos:
+- Entorno de ejecución Java (JRE)
+- Bibliotecas Swing
+- Plataforma compatible
+- Interfaz gráfica
 
-# 
+## API
+### TimePanel
+
+#### Descripción
+La clase TimePanel es un panel de Swing que permite a los usuarios seleccionar y ajustar la hora, los minutos y AM/PM. Proporciona una interfaz gráfica para que los usuarios establezcan la hora deseada.
+
+#### Campos:
+| Tipo| Campo| Descripción|
+|---------------|----------|-----------------------------------------------------------------------------------------------|
+| `Calendar`| `cal`| Almacena la instancia de Calendar que representa la hora actual del sistema.|
+| `JTextField`| `texto`| Almacena una referencia al campo de texto donde se mostrará la hora seleccionada.|
+| `JLabel`| `Hora`| Muestra la hora seleccionada por el usuario en formato de 12 horas.|
+| `JLabel`| `Minuto`| Muestra los minutos seleccionados por el usuario.|
+| `JLabel`| `AmPm`| Muestra si es AM o PM.|
+| `JLabel`| `btnCancel`| Botón para cancelar la selección de hora.|
+| `JLabel`| `btnSet`| Botón para confirmar y establecer la hora seleccionada.|
+
+#### Métodos:
+| Nombre| Tipo de Dato que Retorna | Tipo de dato que Recibe | Descripción|
+|-------|--------------------------|-------------------------|------------|
+| `ajustarHora`| `void`| `String`| Ajusta la hora seleccionada según el valor recibido ('+' para aumentar, '-' para disminuir).|
+| `ajustarMinuto`| `void`| `String`| Ajusta los minutos seleccionados según el valor recibido ('+' para aumentar, '-' para disminuir).|  
+| `initComponents`| `void`| `N/A`| Inicializa y configura los componentes de la interfaz gráfica.|
+
+### Clase: TimeChooser
+
+#### Descripción
+La clase TimeChooser es un campo de texto personalizado que permite a los usuarios seleccionar la hora utilizando un panel de selección de tiempo. Facilita la entrada y visualización de la hora en aplicaciones Java.
+
+#### Campos:
+| Tipo| Campo| Descripción|
+|-----|------|------------|
+| `Dimension`| `dimension`| Almacena las dimensiones del componente.|
+| `JButton`| `button`| Botón para abrir el panel de selección de tiempo.|
+| `JPopupMenu`| `popup`| Menú emergente que contiene el panel de selección de tiempo.|
+| `TimePanel`| `timePanel`| Panel de selección de tiempo que se muestra en el menú emergente.|
+
+#### Métodos:
+| Nombre| Tipo de Dato que Retorna| Tipo de dato que Recibe| Descripción|
+|-------|-------------------------|------------------------|------------|
+| `updateButton`| `void`| `N/A`| Actualiza la dimensión y posición del botón de apertura del panel de selección de tiempo.|
+| `componentResized`| `void` | `ComponentEvent`| Ajusta el botón cuando el componente cambia de tamaño.|
+| `componentMoved`| `void`| `ComponentEvent`| Método vacío llamado cuando el componente se mueve.|
+| `componentShown`| `void`| `ComponentEvent`| Método vacío llamado cuando el componente se muestra.|
+| `componentHidden`| `void`| `ComponentEvent`| Método vacío llamado cuando el componente se oculta.|
