@@ -77,3 +77,11 @@ La clase TimeChooser es un campo de texto personalizado que permite a los usuari
 | `componentMoved`| `void`| `ComponentEvent`| Método vacío llamado cuando el componente se mueve.|
 | `componentShown`| `void`| `ComponentEvent`| Método vacío llamado cuando el componente se muestra.|
 | `componentHidden`| `void`| `ComponentEvent`| Método vacío llamado cuando el componente se oculta.|
+
+## Instalación
+Para utilizar este componente en tu proyecto, sigue estos pasos:
+
+
+
+
+
