@@ -127,6 +127,20 @@ Seleccionamos a que categoria añadimos nuestra nueva herramienta
 
 3. Ya está listo para usar y arrastrar a tus componentes
 
+![image](https://github.com/GardelGaGa/GardelGaGa-ITO_TAP_U2_COMPONENTE_SELECTORDEHORA/assets/69336597/ca250286-c7f8-473c-a06f-0dd3e9687812)
+
+
+5. Prueba ya sea en tu `JFrame` o `JDialog` funciona.
+
+Ya puedes seleccionar la hora que guste e implementarlo en algun proyecto de tu preferencia 
+
+
+![image](https://github.com/GardelGaGa/GardelGaGa-ITO_TAP_U2_COMPONENTE_SELECTORDEHORA/assets/69336597/d15ec4be-521f-4792-a56f-173679491d9a)
+
+Y este se mostrara en el cuadro de la herramienta 
+![image](https://github.com/GardelGaGa/GardelGaGa-ITO_TAP_U2_COMPONENTE_SELECTORDEHORA/assets/69336597/b9e6e87e-8b9d-483f-aa20-b00f22be8b94)
+
+
 
 
 ## Funcionamiento
