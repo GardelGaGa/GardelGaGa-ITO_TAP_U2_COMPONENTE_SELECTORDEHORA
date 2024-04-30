@@ -129,7 +129,31 @@ Seleccionamos a que categoria añadimos nuestra nueva herramienta
 
 
 
+## Funcionamiento
+¡Descubre cómo funciona este componente visual *Selector de hora*!
+Haz clic para ver el video ahora mismo ---> 
 
+
+## Contribuir
+Si deseas contribuir a este proyecto, por favor sigue los siguientes pasos:
+1. Haz un fork del repositorio.
+2. Crea una nueva rama para tu característica o corrección de errores.
+3. Haz tus cambios.
+4. Envía un pull request.
+
+
+
+## Autores
+- Santos Perez Valentino Gardel - *Estudiante del ITO* - [Contacto]([GardelGaGa (github.com)](https://github.com/GardelGaGa))
+  
+- Alary Guzmán Jiménez - *Estudiante del ITO* - [Contacto]([AlaryGuzman (github.com)](https://github.com/AlaryGuzman))
+
+
+
+
+## Agradecimientos
+- Gracias a todos los que contribuyeron a este proyecto!
+- A mi gato por acompañarme en las noches de desvelo .
 
 
 
