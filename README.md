@@ -93,5 +93,47 @@ Para utilizar este componente en tu proyecto, sigue estos pasos:
 
 2. Importa el proyecto en tu IDE preferido (NetBeans o VS code).
 
-3. Importa el proyecto en tu IDE preferido (NetBeans o VS code).
+3. Asegúrate de que el proyecto se compila sin errores para crear el `.jar` según la versión de tu Java.
+
+## Uso
+1. Compila tu proyecto para crear el archivo `.jar`
+
+  ![image](https://github.com/GardelGaGa/GardelGaGa-ITO_TAP_U2_COMPONENTE_SELECTORDEHORA/assets/69336597/ee41794b-bf32-4bdc-bd25-3323010fafde)
+
+   Posteriormente presiona `SHIFT + F11` o clikea en este boton 
+   ![image](https://github.com/GardelGaGa/GardelGaGa-ITO_TAP_U2_COMPONENTE_SELECTORDEHORA/assets/69336597/cd68b0af-0546-4fab-bb0c-ce065fe12a04)
+
+2. Agrega el componente a tu paleta de componentes.
+
+
+   Da click derecho en **Tools** en la barra de tareas y despues da click en **Swing/AWT Components** para abrir el **Palette Manager**
+   
+![image](https://github.com/GardelGaGa/GardelGaGa-ITO_TAP_U2_COMPONENTE_SELECTORDEHORA/assets/69336597/b5212882-1ce9-4e93-8609-ad40591494a3)
+
+Una vez abierto este cuadro damos click en  **Add from JAR** para seguir con el proceso 
+
+![image](https://github.com/GardelGaGa/GardelGaGa-ITO_TAP_U2_COMPONENTE_SELECTORDEHORA/assets/69336597/4b9f39f0-72fe-4dbb-a4ac-2ca19713532b)
+
+Navega hasta la carpeta **dist** del proyecto y selecciona `jar`
+
+![image](https://github.com/GardelGaGa/GardelGaGa-ITO_TAP_U2_COMPONENTE_SELECTORDEHORA/assets/69336597/14b250c8-e172-46ab-937e-cbb554d83ce6)
+
+![image](https://github.com/GardelGaGa/GardelGaGa-ITO_TAP_U2_COMPONENTE_SELECTORDEHORA/assets/69336597/663164f0-3a14-4720-aa40-1098196ef3d9)
+
+Seleccionamos a que categoria añadimos nuestra nueva herramienta 
+
+![image](https://github.com/GardelGaGa/GardelGaGa-ITO_TAP_U2_COMPONENTE_SELECTORDEHORA/assets/69336597/0b90417d-6e4a-4088-bdea-1c10cd9022ff)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
