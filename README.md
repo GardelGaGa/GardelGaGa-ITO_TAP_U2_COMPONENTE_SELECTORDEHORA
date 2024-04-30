@@ -149,7 +149,7 @@ Con esto puedes usar la seleccion de hora en tu aplicaion principal o sistema.
 ## Funcionamiento
 ¡Descubre cómo funciona este componente visual *Selector de hora*!
 
-Haz clic para ver el video ahora mismo ---> 
+Haz clic para ver el video ahora mismo ---> https://www.youtube.com/watch?v=kULZe17lWrw
 
 
 ## Contribuir
