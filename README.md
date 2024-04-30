@@ -103,10 +103,11 @@ Para utilizar este componente en tu proyecto, sigue estos pasos:
    Posteriormente presiona `SHIFT + F11` o clikea en este boton 
    ![image](https://github.com/GardelGaGa/GardelGaGa-ITO_TAP_U2_COMPONENTE_SELECTORDEHORA/assets/69336597/cd68b0af-0546-4fab-bb0c-ce065fe12a04)
 
-2. Agrega el componente a tu paleta de componentes.
+añadiremos a nuestra categoria
 
 
-   Da click derecho en **Tools** en la barra de tareas y despues da click en **Swing/AWT Components** para abrir el **Palette Manager**
+
+2. Agrega el componente a tu paleta de componentes. Da click derecho en **Tools** en la barra de tareas y despues da click en **Swing/AWT Components** para abrir el **Palette Manager**
    
 ![image](https://github.com/GardelGaGa/GardelGaGa-ITO_TAP_U2_COMPONENTE_SELECTORDEHORA/assets/69336597/b5212882-1ce9-4e93-8609-ad40591494a3)
 
@@ -123,6 +124,11 @@ Navega hasta la carpeta **dist** del proyecto y selecciona `jar`
 Seleccionamos a que categoria añadimos nuestra nueva herramienta 
 
 ![image](https://github.com/GardelGaGa/GardelGaGa-ITO_TAP_U2_COMPONENTE_SELECTORDEHORA/assets/69336597/0b90417d-6e4a-4088-bdea-1c10cd9022ff)
+
+3. Ya está listo para usar y arrastrar a tus componentes
+
+
+
 
 
 
