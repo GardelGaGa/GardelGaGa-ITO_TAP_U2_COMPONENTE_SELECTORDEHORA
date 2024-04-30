@@ -132,15 +132,18 @@ Seleccionamos a que categoria añadimos nuestra nueva herramienta
 
 5. Prueba ya sea en tu `JFrame` o `JDialog` funciona.
 
-Ya puedes seleccionar la hora que guste e implementarlo en algun proyecto de tu preferencia 
+Ya puedes seleccionar la hora que gustes
 
 
 ![image](https://github.com/GardelGaGa/GardelGaGa-ITO_TAP_U2_COMPONENTE_SELECTORDEHORA/assets/69336597/d15ec4be-521f-4792-a56f-173679491d9a)
 
+
 Y este se mostrara en el cuadro de la herramienta 
+
+
 ![image](https://github.com/GardelGaGa/GardelGaGa-ITO_TAP_U2_COMPONENTE_SELECTORDEHORA/assets/69336597/b9e6e87e-8b9d-483f-aa20-b00f22be8b94)
 
-
+Con esto puedes usar la seleccion de hora en tu aplicaion principal o sistema.
 
 
 ## Funcionamiento
