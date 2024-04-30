@@ -81,7 +81,17 @@ La clase TimeChooser es un campo de texto personalizado que permite a los usuari
 ## Instalación
 Para utilizar este componente en tu proyecto, sigue estos pasos:
 
+1. Obtener el repositorio
 
 
+ ```bash
+      git clone https://github.com/GardelGaGa/GardelGaGa-ITO_TAP_U2_COMPONENTE_SELECTORDEHORA.git
+   ```
 
+   Otra opción es descargar `ZIP`.
+   ![image](https://github.com/GardelGaGa/GardelGaGa-ITO_TAP_U2_COMPONENTE_SELECTORDEHORA/assets/69336597/047503ff-f5ed-4759-ac5c-26c2a78a554b)
+
+2. Importa el proyecto en tu IDE preferido (NetBeans o VS code).
+
+3. Importa el proyecto en tu IDE preferido (NetBeans o VS code).
 
